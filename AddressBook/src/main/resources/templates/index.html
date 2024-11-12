@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주소록 관리</title>
+<script>
+	// 비동기 ajax(saveData)
+	async function saveData(){
+		const name = document.getElemenetById('name').value;
+		const age = document.getElemenetById('age').value;
+		const phone = document.getElemenetById('phone').value;
+		const address = document.getElemenetById('address').value;
+		
+		const userData = {
+				name : name,
+				age : parseInt(age),
+				phone : phone,
+				address : address
+		};
+		
+		const reponse = await fetch('/api/addressbook/save', {
+			method : 'POST',
+			headers: {
+				'Content-type': 'application/json'
+			},
+			body: JSON.stringify(userData)
+		});
+		
+		const result = await response.text();
+		alert(result);
+		clearFields();
+	}
+	
+	// 비동기 ajax(showList)
+	async function showList(){
+		const response = await fetch('/api/addressbook/list');
+		const users = await response.json();
+		const listContainer = document.getElementById('userList');
+		listContainer.innerHTML = ""; // 기준 목록 초기화
+		
+		users.forEach(user => {
+			const listItem = document.createElement('li');
+			listItem.textContent = '이름: ${user.name}, 나이: ${user.age}, 전화번호 : ${user.phone}, 주소 : ${user.address}';
+			listContainer.appenChild(listItem);
+		});
+	}
+	
+	function clearFields(){
+		document.getElementById('name').value='';
+		document.getElementById('age').value='';
+		document.getElementById('phone').value='';
+		document.getElementById('address').value='';
+	}
+</script>
+</head>
+<body>
+	<h1>주소록 관리</h1>
+	<label>이름: <input type="text" id="name"></label><br>
+	<label>나이: <input type="number" id="age"></label><br>
+	<label>전화번호: <input type="text" id="phone"></label><br>
+	<label>주소: <input type="text" id="address"></label><br>
+	
+	<button onclick="saveData()">저징</button>
+	<button onclick="showList()">목록</button>
+	
+	<h2>주소록 목록</h2>
+	<ul id="userList"></ul>
+</body>
+</html>

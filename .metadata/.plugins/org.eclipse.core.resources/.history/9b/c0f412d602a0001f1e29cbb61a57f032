@@ -1,0 +1,135 @@
+package com.example.AddressBook;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class AddressBook {
+	
+	// 주소록을 저장할 HashMap
+	private static Map<String, User> addressBook = new HashMap(); // 이름을 키로, User 객체를 값으로 지정
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String command;
+		
+		System.out.println("주소록 관리 프로그램입니다.");
+		System.out.println("명령어 입력 : 저장, 목록, 종료");
+		
+		while(true) {
+			System.out.print("명령어를 입력하세요: ");
+			command = scanner.nextLine().trim();
+			
+			if(command.equals("저장")) {
+				saveData(scanner);
+			} else if(command.equals("목록")) {
+				showList();
+			} else if(command.equals("종료")) {
+				System.out.println("프로그램을 종료합니다.");
+				break;
+			} else {
+				System.out.println("잘못된 명령어입니다. 다시 시도하세요.");
+			}
+		}
+		
+		scanner.close();
+	}
+
+	// 데이터 저장 함수(saveData)
+	private static void saveData(Scanner scanner) {
+		System.out.print("이름 : ");
+		String name = scanner.nextLine().trim();
+		
+		int age = -1; // 나이를 저장할 변수 초기화
+		while(age <= 0) {
+			System.out.print("나이 : ");
+			String ageStr = scanner.nextLine().trim();
+			if(!isValidAge(ageStr)) {
+				age = Integer.parseInt(ageStr);
+			} else {
+				System.out.println("나이는 0 이상의 정수여야 합니다.");
+			}
+		}
+		
+		System.out.print("전화번호 : ");
+		String phone = scanner.nextLine().trim();
+		if(!isValidPhone(phone)) {
+			System.out.println("전화번호는 10자리 또는 11자리 숫자여야 합니다.");
+			return;
+		}
+		
+		System.out.print("주소 : ");;
+		String address = scanner.nextLine().trim();
+		if(!isValidAddress(address)) {
+			System.out.println("주소는 5자 이상이여야 합니다.");
+			return;
+		}
+		
+		// 중복 확인
+		if(addressBook.containsKey(name)) {
+			System.out.println("중복된 이름이 있습니다.");
+			return;
+		}
+		
+		// 사용자 데이터 객체 생성
+		User user = new User(name, age, phone, address);
+		addressBook.put(name, user);
+		
+		System.out.println("저장이 완료되었습니다.");
+	}
+	
+	// 나이 유효성 검사
+	private static boolean isValidAge(String ageStr) {
+		try {
+			int age = Integer.parseInt(ageStr);
+			return age > 0; // 나이는 0보다 커야 함
+		} catch (NumberFormatException e) {
+			return false; // 숫자가 아닐 경우
+		}
+	}
+	
+	// 전화번호 유효성 검사
+	private static boolean isValidPhone(String phone) {
+		return phone.matches("\\{10,11}"); // 10자리 또는 11자리 숫자
+	}
+	
+	// 주소 유효성 검사
+	private static boolean isValidAddress(String address) {
+		return address.length() >= 5; // 최소 5자 이상
+	}
+	
+	// 주소록 목록 출력 함수(showList)
+	private static void showList() {
+		if(addressBook.isEmpty()) {
+			System.out.println("저장된 주소록이 없습니다.");
+			return;
+		}
+		
+		System.out.println("===주소록 목록===");
+		for(User user : addressBook.values()) {
+			System.out.println(user);
+		}
+	}
+	
+	// 사용자 데이터 클래스
+	static class User{
+		private String name;
+		private int age;
+		private String phone;
+		private String address;
+		
+		public User(String name, int age, String phone, String address) {
+			this.name = name;
+			this.age = age;
+			this.phone = phone;
+			this.address = address;
+		}
+		
+		@Override
+		public String toString() {
+			return String.format("이름: %s, 나이: %s, 전화번호 : %s, 주소 : %s", name, age, phone, address);
+		}
+	}
+	
+
+}

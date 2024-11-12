@@ -1,0 +1,100 @@
+package com.example.AddressBook;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class AddressBook {
+	
+	// 주소록을 저장할 HashMap
+	private static Map<String, User> addressBook = new HashMap();
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String command;
+		
+		System.out.println("주소록 관리 프로그램입니다.");
+		System.out.println("명령어 입력 : 저장, 목록, 종료");
+		
+		while(true) {
+			System.out.print("명령어를 입력하세요: ");
+			command = scanner.nextLine().trim();
+			
+			if(command.equals("저장")) {
+				saveData(scanner);
+			} else if(command.equals("목록")) {
+				showList();
+			} else if(command.equals("종료")) {
+				System.out.println("프로그램을 종료합니다.");
+				break;
+			} else {
+				System.out.println("잘못된 명령어입니다. 다시 시도하세요.");
+			}
+		}
+		
+		scanner.close();
+	}
+
+	// 데이터 저장 함수
+	private static void saveData(Scanner scanner) {
+		System.out.print("이름 : ");
+		String name = scanner.nextLine().trim();
+		
+		System.out.print("나이 : ");
+		String ageSt = scanner.nextLine().trim();
+		int age = Integer.parseInt(ageSt);
+		
+		System.out.print("전화번호 : ");
+		String phone = scanner.nextLine().trim();
+		
+		System.out.print("주소 : ");;
+		String address = scanner.nextLine().trim();
+		
+		// 중복 확인
+		if(addressBook.containsKey(name)) {
+			System.out.println("중복된 이름이 있습니다.");
+			return;
+		}
+		
+		// 사용자 데이터 객체 생성
+		User user = new User(name, age, phone, address);
+		addressBook.put(name, user);
+		
+		System.out.println("저장이 완료되었습니다.");
+	}
+	
+	// 주소록 목록 출력 함수
+	private static void showList() {
+		if(addressBook.isEmpty()) {
+			System.out.println("저장된 주소록이 없습니다.");
+			return;
+		}
+		
+		System.out.println("===주소록 목록===");
+		for(User user : addressBook.values()) {
+			System.out.println(user);
+		}
+	}
+	
+	// 사용자 데이터 클래스
+	static class User{
+		private String name;
+		private int age;
+		private String phone;
+		private String address;
+		
+		public User(String name, int age, String phone, String address) {
+			this.name = name;
+			this.age = age;
+			this.phone = phone;
+			this.address = address;
+		}
+		
+		@Override
+		public String toString() {
+			return String.format("이름: %s, 나이: %s, 전화번호 : %s, 주소 : %s", name, age, phone, address);
+		}
+	}
+	
+
+}
