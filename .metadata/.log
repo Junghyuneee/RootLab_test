@@ -11113,3 +11113,12 @@ Java Model Exception: Error in Java Model (code 969): Recommend_id does not exis
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-15 17:30:29.094
 !MESSAGE Recommend_id does not exist
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 17:33:13.190
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 17:34:34.020
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 17:34:34.023
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
