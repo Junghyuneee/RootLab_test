@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일정 등록</title>
+    
+	<!-- fullcalendar css -->
+	<link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
+	<!-- JQuery css (datepicker) -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<style>
+		body{
+			font-family: Arial, sans-serif;
+			padding: 20px;
+		}
+		#calendar{
+			max-width: 900px;
+			margin: 0 auto;
+		}
+		.form-field{
+			margin: 10px 0;
+		}
+		#addEventButton{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		#addEventButton:hover{
+			background-color: #0056b3;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- 일정 추가 버튼 -->
+	<button id="addEventButton">일정 추가</button>
+	
+	<!-- 달력을 표시할 컨테이너 -->
+	<div id="calendar"></div>
+	
+	<!-- 일정 등록 모달 -->
+	<div id="eventModal" title="일정 등록" style="display: none;">
+		<form id="eventForm">
+			<!-- 시작일 -->
+			<div class="form-field">
+				<label for="modalStartDate">시작일</label>
+				<input id="modalStartDate" type="text" readonly>
+			</div>
+			<!-- 종료일 -->
+			<div class="form-field">
+				<label for="modalEndDate">종료일</label>
+				<input id="modalEndDate" type="text" readonly>
+			</div>
+			<!-- 일정 -->
+			<div class="form-field">
+				<label for="modalEvent">일정</label>
+				<textarea id="modalEvent" rows="2" cols="30" placeholder="일정을 입력하세요."></textarea>
+				<button type="button" id="saveEvent">등록</button>
+			</div>
+		
+		</form>
+	</div>
+	
+	<!-- jQuery UI, jQuery, fullcalendarJS -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+    
+    <!-- javascript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+   
