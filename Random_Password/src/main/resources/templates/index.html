@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Password</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+
+<body>
+    <div id="banner">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 288 448"
+            class="index_img protected_img">
+            <path
+                d="M80 192h128v-48c0-35.25-28.75-64-64-64s-64 28.75-64 64v48zM288 216v144c0 13.25-10.75 24-24 24h-240c-13.25 0-24-10.75-24-24v-144c0-13.25 10.75-24 24-24h8v-48c0-61.5 50.5-112 112-112s112 50.5 112 112v48h8c13.25 0 24 10.75 24 24z">
+            </path>
+        </svg>
+        <h2>랜덤 비밀번호 생성</h2>
+    </div>
+    <div class="line"></div>
+    <div id="password">여기에 결과가 표시됩니다.</div>
+    <div class="line"></div>
+    <div id="psbtn">랜덤 비밀번호 생성</div>
+    <div class="line"></div>
+    <div id="cbx">
+        <div class="settings"><input type="checkbox" id="number" checked><label for="number">숫자</label></div>
+        <div class="settings"><input type="checkbox" id="symbol"><label for="symbol">특수문자 (eg. !@#)</label></div>
+        <div class="settings"><input type="checkbox" id="capital" checked><label for="capital">대문자</label></div>
+        <div class="settings"><input type="checkbox" id="small" checked><label for="small">소문자</label></div>
+        <div class="settings"><input type="checkbox" id="removeSimilar"><label for="removeSimilar">유사 문자 제거 (eg. o, 0, O)</label></div>
+        <div class="settings"><input type="checkbox" id="autoCopy" checked><label for="autoCopy">자동 선택 & 복사</label></div>
+        <div class="flex"><span>길이 :</span>&nbsp;<input type="number" id="pwlength" value="20"></div>
+    </div>
+    
+    <!-- 비밀번호 유효성 검사 -->
+    <div class="line"></div>
+    <h2>비밀번호 검증</h2>
+    <input type="text" id="userPassword" placeholder="비밀번호를 입력하세요.">
+    <button id="validateBtn">유효성 검증</button>
+    <div class="line"></div>
+    
+    <!-- 비밀번호 암호화 -->
+    <h2>암호화 결과</h2>
+    <p>입력된 비밀번호의 암호화(솔팅 전) : <span id="encryptedUserPasswordPlain"></span></p>
+    <p>입력된 비밀번호의 암호화(솔팅 후) : <span id="encryptedUserPasswordSalted"></span></p>
+    <p>생성된 비밀번호의 암호화(솔팅 전) : <span id="encryptedGeneratedPasswordPlain"></span></p>
+    <p>생성된 비밀번호의 암호화(솔팅 후) : <span id="encryptedGeneratedPasswordSalted"></span></p>
+
+	<!-- 암호화 라이브러리 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
