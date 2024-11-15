@@ -8647,3 +8647,2469 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 17:34:22.520
+!MESSAGE Classpath changed for project: Random_Password
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 17:34:22.521
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-12 17:45:53.463
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-12 17:45:53.519
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-12 17:45:53.522
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+!SESSION 2024-11-13 10:44:02.397 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 10:44:39.180
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 10:45:55.214
+!MESSAGE Logback config file: C:\Users\AI-HUB-1\jung\rootlab\RootLab_test\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 10:45:55.636
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 10:45:55.636
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-13 10:46:01.002
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AI-HUB-1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 10:46:01.313
+!MESSAGE Boot project ADDED: AddressBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 10:46:01.314
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 10:46:01.355
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 10:46:01.355
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 10:46:01.415
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731462361413
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 10:46:01.416
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 10:46:01.440
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16628
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 10:46:59.199
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 10:46:59.695
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 10:46:59.718
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-13 17:44:24.819
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+!SESSION 2024-11-14 09:54:15.581 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 09:54:44.559
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 09:56:29.905
+!MESSAGE Logback config file: C:\Users\AI-HUB-1\jung\rootlab\RootLab_test\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 09:56:30.325
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 09:56:30.325
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 09:56:35.516
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731545795515
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:56:35.517
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 09:56:35.542
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7524
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:56:37.322
+!MESSAGE Boot project ADDED: AddressBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:56:37.322
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:56:37.324
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 09:56:37.324
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-14 09:56:37.508
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AI-HUB-1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:28:18.406
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:28:18.729
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:28:18.752
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:28:48.692
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:28:49.028
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:03.101
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:07.292
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:08.871
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:09.390
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:10.221
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:11.411
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:12.288
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:13.217
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:17.505
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:18.572
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:19.193
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:19.975
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:22.043
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:22.715
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:23.691
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:24.807
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:27.137
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:27.913
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:29.587
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:31.228
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:32.590
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:33.942
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:35.710
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:37.251
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:39.882
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:47.332
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:48.388
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:55.434
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:56.801
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:58.206
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:29:59.889
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:00.454
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:01.149
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:05.982
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:08.222
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:10.284
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:12.136
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:13.231
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:14.140
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:15.642
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:23.367
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:24.484
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:26.466
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:27.695
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:28.919
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:30.879
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:32.222
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:34.562
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:37.627
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:39.371
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:41.815
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:44.242
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:46.390
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:50.741
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:53.345
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:54.365
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:30:58.119
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:00.185
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:02.873
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:05.111
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:05.632
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:07.997
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:09.604
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:11.046
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:13.368
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:14.201
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:16.692
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:20.503
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:22.145
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:23.271
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:24.300
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:25.588
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:34.229
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:35.938
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:36.790
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:39.071
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:41.104
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:47.966
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:49.948
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:51.867
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:54.018
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:31:57.337
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:00.714
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:06.665
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:08.428
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:21.629
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:22.814
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:24.157
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:25.853
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:31.465
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:32.537
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:33.061
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:35.237
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:40.829
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:41.469
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:45.070
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:45.755
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:46.662
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:48.027
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:49.093
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:51.554
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:52.130
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:53.919
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:57.043
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:32:59.079
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:07.020
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:08.549
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:10.044
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:13.116
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:15.878
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:17.018
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:17.584
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:19.385
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:22.524
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:25.158
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:27.357
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:30.588
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:34.616
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:36.298
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:37.111
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:46.769
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:47.633
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:49.188
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:51.991
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:57.772
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:58.402
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:33:59.132
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:00.055
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:06.211
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:07.655
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:13.916
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:25.538
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:26.974
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:32.822
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:40.288
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:41.474
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:42.604
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:53.674
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:54.856
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:55.744
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:56.319
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:34:57.950
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:05.092
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:06.458
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:08.662
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:11.631
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:12.950
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:13.730
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:26.601
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:37.208
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:42.871
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:45.463
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:47.155
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:48.974
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:50.559
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:51.960
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:52.535
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:53.836
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:57.774
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:35:59.580
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:00.274
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:01.335
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:02.426
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:03.543
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:04.160
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:06.312
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:06.835
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:08.338
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:11.437
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:14.417
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:16.835
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:17.579
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:21.463
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:23.549
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:44.648
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:47.751
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:49.905
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:53.622
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:36:56.961
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:06.344
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:08.921
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:10.636
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:11.192
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:12.366
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:13.748
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:14.469
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:16.982
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:19.378
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:20.758
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:21.291
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:22.262
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:24.684
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:26.950
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:28.247
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:28.925
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:30.247
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:30.757
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:31.454
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:34.745
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:38.017
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:39.667
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:40.524
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:41.848
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:42.556
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:37:44.334
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:14.324
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:17.810
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:19.403
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:24.784
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:27.126
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:29.832
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:32.534
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:34.579
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:35.355
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:37.918
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:39.970
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:41.208
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:42.245
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:43.725
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:44.583
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:45.700
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:47.857
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:48.857
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:49.442
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:52.573
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:53.923
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:55.166
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:57.507
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:39:58.666
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:01.273
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:02.773
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:03.484
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:04.028
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:04.858
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:06.381
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:07.916
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:08.950
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:11.384
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:12.038
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:13.512
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:15.075
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:16.263
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:18.349
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:18.950
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:20.634
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:25.818
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:28.915
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:29.743
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:31.546
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:36.506
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:37.068
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:39.007
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:39.784
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:40.333
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:42.697
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:43.284
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:47.427
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:49.476
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:52.331
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:53.155
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:54.928
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:56.938
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:40:57.548
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:02.370
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:12.041
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:15.085
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:20.338
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:23.452
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:24.766
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:27.622
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:29.208
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:30.016
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:32.523
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:37.115
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:41:46.162
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:03.725
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:04.477
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:05.466
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:07.592
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:11.862
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:13.901
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:16.266
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:19.245
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:19.794
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:42:22.780
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 11:43:31.585
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:32.106
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:34.296
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:36.042
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:38.336
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:42.724
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:46.718
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:49.170
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:51.824
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:53.418
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:54.930
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:57.688
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:43:58.906
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:03.227
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:05.755
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:06.929
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:12.015
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:13.422
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:17.537
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:23.732
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:26.417
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:27.616
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:28.867
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:34.097
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:38.834
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:42.233
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:46.961
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:44:57.419
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:00.627
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:04.003
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:07.738
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:09.109
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:11.078
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:14.838
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:16.446
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:18.796
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:21.375
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:21.935
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:23.453
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:25.072
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:29.906
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:32.717
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:34.852
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:36.383
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:39.714
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:40.875
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:42.286
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:45.098
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:47.119
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:48.270
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:50.664
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:51.453
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:53.602
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:55.525
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:56.178
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:45:56.975
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:00.857
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:01.404
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:06.015
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:06.631
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:08.193
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:13.900
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:16.666
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:22.655
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:23.327
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:25.457
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:28.276
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:29.155
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:31.563
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:35.327
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:36.324
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:37.463
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:39.230
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:39.774
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:40.651
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:45.082
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:45.962
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:46.867
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:48.100
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:51.466
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:52.227
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:57.754
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:46:59.562
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:00.684
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:04.658
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:07.219
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:08.085
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:08.816
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:09.438
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:10.154
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:13.835
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:17.930
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:20.233
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:22.831
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:25.350
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:26.588
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:27.404
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:29.973
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:32.576
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:34.385
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:35.639
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:36.273
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:39.111
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:40.927
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:41.942
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:47.665
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:48.409
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:51.789
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:54.962
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:47:55.592
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:01.758
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:02.499
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:10.210
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:13.556
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:14.911
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:15.775
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:17.824
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:21.734
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:24.788
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:26.091
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:27.850
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:29.756
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:31.262
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:31.897
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:33.970
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:35.385
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:38.360
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:39.316
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:41.783
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:43.576
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:47.248
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:48.595
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:49.910
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:52.284
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:53.414
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:55.290
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:55.890
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:57.286
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:48:59.458
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:01.713
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:03.479
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:04.328
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:05.413
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:06.342
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:11.296
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:12.174
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:15.868
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:17.324
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:19.135
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:19.756
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:21.980
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:23.659
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:24.911
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:25.858
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:27.754
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:33.691
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:35.415
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:36.606
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:40.552
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:42.442
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:45.374
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:47.891
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:49.437
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:51.069
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:54.218
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:55.290
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:49:57.512
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:00.646
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:07.432
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:08.184
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:09.558
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:15.006
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:24.510
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:30.337
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:32.233
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:33.893
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:38.466
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:39.655
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:40.285
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:42.904
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:46.508
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:49.525
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:50.257
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:51.554
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:56.966
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:50:59.798
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:01.377
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:04.402
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:06.789
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:09.475
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:16.719
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:18.291
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:19.985
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:22.823
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:25.342
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:25.960
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:26.468
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:27.633
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:28.753
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:51:41.220
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:52:00.015
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 11:52:00.949
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:20:48.178
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:20:52.510
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:00.223
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:04.076
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:07.305
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:08.335
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:11.512
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:16.330
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:20.758
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:24.176
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:30.241
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:30.882
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:35.398
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:39.812
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:43.355
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:43.864
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:46.157
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:50.680
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:52.088
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:52.875
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:21:54.877
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:03.054
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:04.712
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:06.270
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:09.844
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:13.399
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:14.397
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:16.032
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:17.770
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:18.373
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:20.947
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:22.602
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:27.515
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:28.880
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:31.928
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:33.207
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:35.470
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:36.668
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:37.310
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:38.485
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:39.781
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:40.418
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:41.913
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:43.677
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:44.847
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:47.352
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:48.520
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:49.988
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:51.289
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:52.744
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:55.873
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:56.954
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:22:59.692
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:09.235
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:14.146
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:20.613
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:27.981
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:31.159
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:33.008
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:36.622
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:38.137
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:39.068
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:44.148
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:50.146
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:54.708
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:23:55.417
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:03.796
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:08.413
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:09.253
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:10.598
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:12.303
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:14.267
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:17.434
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:21.627
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:23.452
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:36.021
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:36.834
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:37.413
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:38.790
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:40.465
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:41.115
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:45.411
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:45.992
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:50.428
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:56.291
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:24:58.299
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:01.163
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:01.838
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:04.237
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:05.382
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:06.942
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:08.401
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:09.363
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:10.615
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:15.912
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:16.846
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:19.402
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:20.603
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:24.477
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:26.863
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:30.351
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:34.162
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:36.012
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:25:39.991
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:35.495
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:36.176
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:41.902
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:42.485
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:45.330
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:47.198
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:48.449
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:50.497
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:51.082
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:52.450
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:53.805
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:26:58.106
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:01.034
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:04.791
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:06.297
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:10.921
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:15.572
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:16.569
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:17.605
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:19.133
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-14 13:27:33.555
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/templates/script.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 16:16:20.702
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+!SESSION 2024-11-14 17:02:09.077 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 17:02:34.227
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 17:02:39.413
+!MESSAGE Logback config file: C:\Users\AI-HUB-1\jung\rootlab\RootLab_test\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 17:02:39.851
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 17:02:39.851
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:02:44.186
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:02:44.576
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:02:44.605
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.jface 2 0 2024-11-14 17:02:45.012
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-11-14 17:02:45.012
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-14 17:02:45.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AI-HUB-1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:45.620
+!MESSAGE Boot project ADDED: AddressBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:45.620
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:45.622
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:45.623
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:02:45.674
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731571365673
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:45.675
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:02:45.683
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9612
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-14 17:21:18.706
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:22:50.796
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:22:50.867
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:22:50.870
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:40:52.769
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:40:52.829
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:40:52.832
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:43:36.225
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:43:36.282
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-14 17:43:36.285
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-14 17:43:37.734
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2024-11-15 09:36:08.304 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 09:36:10.812
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 09:36:34.590
+!MESSAGE Logback config file: C:\Users\AI-HUB-1\jung\rootlab\RootLab_test\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-15 09:36:35.002
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-15 09:36:35.002
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 09:36:40.888
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 09:36:41.037
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 09:36:41.057
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.jface 2 0 2024-11-15 09:36:41.061
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-11-15 09:36:41.061
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-15 09:36:41.581
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AI-HUB-1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 09:36:41.702
+!MESSAGE Boot project ADDED: AddressBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 09:36:41.703
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 09:36:41.706
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 09:36:41.706
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 09:36:41.758
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731631001757
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 09:36:41.759
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 09:36:41.792
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12580
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 09:37:36.003
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 10:22:32.943
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 10:44:12.039
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-11-15 10:44:12.336
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/Random_Password/src/main/resources/static/script.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 10:46:39.746
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 10:46:39.795
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 10:46:39.798
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+!SESSION 2024-11-15 11:25:41.517 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 11:25:44.591
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 11:25:48.828
+!MESSAGE Logback config file: C:\Users\AI-HUB-1\jung\rootlab\RootLab_test\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-15 11:25:49.461
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-15 11:25:49.461
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:25:55.525
+!MESSAGE Boot project ADDED: AddressBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:25:55.526
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:25:55.528
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:25:55.529
+!MESSAGE Boot project ADDED: Random_Password
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 11:25:55.561
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/AI-HUB-1/jung/rootlab/RootLab_test/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731637555560
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:25:55.562
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 11:25:55.573
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11808
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-15 11:25:55.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AI-HUB-1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:33:08.367
+!MESSAGE Classpath changed for project: Calendar
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:33:08.368
+!MESSAGE Boot project ADDED: Calendar
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 11:38:49.657
+!MESSAGE Classpath changed for project: Calendar
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:16:02.047
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:16:02.186
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:16:02.190
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:23:52.359
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:23:52.411
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 13:23:52.415
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 15:16:14.693
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 16:28:55.487
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 16:28:55.565
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\Users\AI-HUB-1\Documents\sts-4.26.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 16:28:55.571
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-15 16:28:57.319
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:07:10.487
+!MESSAGE Classpath changed for project: Recommend_id
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:07:10.487
+!MESSAGE Boot project ADDED: Recommend_id
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:26:09.288
+!MESSAGE Classpath changed for project: Regular_Expressions
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:26:09.288
+!MESSAGE Boot project ADDED: Regular_Expressions
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-11-15 17:26:09.634
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:30:29.088
+!MESSAGE Classpath changed for project: Recommend_id
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 17:30:29.089
+!MESSAGE Boot project REMOVED: Recommend_id
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-15 17:30:29.094
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Recommend_id does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-15 17:30:29.094
+!MESSAGE Recommend_id does not exist
