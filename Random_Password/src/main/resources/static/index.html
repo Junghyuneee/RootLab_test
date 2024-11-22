@@ -1,86 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Password Generator</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-  .grid-cell {
-    width: 100px;
-    height: 100px;
-  }
-</style>
+    <title>Random Password</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
-<body class="bg-gray-100 font-roboto">
-<div class="flex flex-col items-center justify-center h-screen">
-  <div class="bg-white p-6 rounded-lg shadow-lg">
-    <h1 class="text-xl font-bold mb-4">패스워드 생성기</h1>
-    <div class="mb-4">
-      <label for="length" class="block mb-2">길이:</label>
-      <input id="length" type="number" value="12" class="border-2 border-gray-300 rounded-lg p-2 w-full">
+
+<body>
+        <h2>랜덤 비밀번호 생성</h2>
+
+    <div class="line"></div>
+    <div id="password">여기에 결과가 표시됩니다.</div>
+    <div class="line"></div>
+    <div id="psbtn">랜덤 비밀번호 생성</div>
+    <div class="line"></div>
+    <div id="cbx">
+        <div class="settings"><input type="checkbox" id="number" checked><label for="number">숫자</label></div>
+        <div class="settings"><input type="checkbox" id="symbol"><label for="symbol">특수문자 (ex. !@#)</label></div>
+        <div class="settings"><input type="checkbox" id="capital" checked><label for="capital">대문자</label></div>
+        <div class="settings"><input type="checkbox" id="small" checked><label for="small">소문자</label></div>
+        <div class="settings"><input type="checkbox" id="removeSimilar"><label for="removeSimilar">유사 문자 제거 (ex. o, 0, O)</label></div>
+        <div class="settings"><input type="checkbox" id="autoCopy" checked><label for="autoCopy">자동 선택 & 복사</label></div>
+        <div class="flex"><span>길이 :</span>&nbsp;<input type="number" id="pwlength" value="12"></div>
     </div>
-    <div class="mb-4">
-      <label class="inline-flex items-center">
-        <input type="checkbox" class="form-checkbox text-indigo-600">
-        <span class="ml-2">특수 문자 포함</span>
-      </label>
-    </div>
-    <div class="mb-4">
-      <label class="inline-flex items-center">
-        <input type="checkbox" class="form-checkbox text-indigo-600">
-        <span class="ml-2">헷갈리는 글자(1, I, l, O, 0) 제외</span>
-      </label>
-    </div>
-    <button id="generate" class="bg-indigo-600 text-white px-4 py-2 rounded-lg font-bold">실행</button>
-    <div id="passwordOutput" class="mt-4 p-2 border-2 border-gray-300 rounded-lg h-12 flex items-center"></div>
-    <button id="copy" class="mt-4 bg-gray-300 px-4 py-2 rounded-lg font-bold">복사</button>
-  </div>
-</div>
+    
+    <!-- 비밀번호 유효성 검사 -->
+    <div class="line"></div>
+    <h2>비밀번호 검증</h2>
+    <input type="text" id="userPassword" placeholder="비밀번호를 입력하세요.">
+    <button id="validateBtn">유효성 검증</button>
+    <div class="line"></div>
+    
+    <!-- 비밀번호 암호화 -->
+    <h2>암호화 결과</h2>
+    <p>입력된 비밀번호의 암호화(솔팅 전) : <span id="encryptedUserPasswordPlain"></span></p>
+    <p>입력된 비밀번호의 암호화(솔팅 후) : <span id="encryptedUserPasswordSalted"></span></p>
+    <p>생성된 비밀번호의 암호화(솔팅 전) : <span id="encryptedGeneratedPasswordPlain"></span></p>
+    <p>생성된 비밀번호의 암호화(솔팅 후) : <span id="encryptedGeneratedPasswordSalted"></span></p>
 
-<script>
-  // Your excellent JavaScript goes here
-  const generateButton = document.getElementById('generate');
-  const copyButton = document.getElementById('copy');
-  const passwordOutput = document.getElementById('passwordOutput');
-  const lengthInput = document.getElementById('length');
-  const includeSpecialCheckbox = document.querySelectorAll('input[type="checkbox"]')[0];
-  const excludeSimilarCheckbox = document.querySelectorAll('input[type="checkbox"]')[1];
-
-  function generatePassword(length, includeSpecial, excludeSimilar) {
-    const specialChars = '!@#$%^&*()_+{}:"<>?[];,./`~';
-    const similarChars = '1IlO0';
-    const baseChars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
-    let chars = baseChars;
-    if (includeSpecial) chars += specialChars;
-    if (!excludeSimilar) chars += similarChars;
-    //if (excludeSimilar) chars = chars.split('').filter(c => !similarChars.includes(c)).join('');
-
-    let password = '';
-    for (let i = 0; i < length; i++) {
-      password += chars.charAt(Math.floor(Math.random() * chars.length));
-    }
-    return password;
-  }
-
-  generateButton.addEventListener('click', () => {
-    const length = parseInt(lengthInput.value, 10);
-    const includeSpecial = includeSpecialCheckbox.checked;
-    const excludeSimilar = excludeSimilarCheckbox.checked;
-    const password = generatePassword(length, includeSpecial, excludeSimilar);
-    passwordOutput.textContent = password;
-  });
-
-  copyButton.addEventListener('click', () => {
-    if (passwordOutput.textContent) {
-      navigator.clipboard.writeText(passwordOutput.textContent).then(() => {
-        alert('Password copied to clipboard!');
-      }, (err) => {
-        alert('Failed to copy password: ', err);
-      });
-    }
-  });
-</script>
+	<!-- 암호화 라이브러리 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
