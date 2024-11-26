@@ -33,6 +33,9 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	//Json
 	implementation group: 'org.json', name: 'json', version: '20240303'
+	//dotenv
+	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+	
 }
 
 tasks.named('test') {

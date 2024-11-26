@@ -13,13 +13,31 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import io.github.cdimascio.dotenv.Dotenv;
+
+@Controller
 public class NaverWebSearch {
 	
-	public static void main(String[] args) {
-		String clientId = "koaElsFxLS8cJK5CPROa"; // 애플리케이션 클라이언트 아이디
-		String clientSecret = "4g9aIaFlNf"; //애플리케이션 클라이언트 시크릿
+	@GetMapping("/search")
+	public String search(Model model) {
+	//public static void main(String[] args) {
 		
-		String text = null;
+		// .env 파일 로드
+		Dotenv dotenv = Dotenv.load();
+		
+		// .env 파일에서 클라이언트 ID와 시크릿 가져오기
+        String clientId = dotenv.get("naver-client-id"); //애플리케이션 클라이언트 아이디
+        String clientSecret = dotenv.get("naver-client-secret"); //애플리케이션 클라이언트 시크릿
+
+        if (clientId == null || clientSecret == null) {
+            throw new RuntimeException(".env 파일에서 NAVER_CLIENT_ID 또는 NAVER_CLIENT_SECRET을 읽을 수 없습니다.");
+        }
+
+        String text;
         try {
             text = URLEncoder.encode("그린팩토리", "UTF-8");
         } catch (UnsupportedEncodingException e) {
@@ -36,8 +54,11 @@ public class NaverWebSearch {
         requestHeaders.put("X-Naver-Client-Secret", clientSecret);
         String responseBody = get(apiURL,requestHeaders);
 
+        model.addAttribute("response", responseBody);
+        return "search";
+        
 
-        System.out.println(responseBody);
+        //System.out.println(responseBody);
     }
 
 

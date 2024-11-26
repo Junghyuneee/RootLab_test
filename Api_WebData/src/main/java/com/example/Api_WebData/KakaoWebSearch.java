@@ -58,7 +58,7 @@ public class KakaoWebSearch {
         return response.toString();
     }
 
-    // JSON 데이터 파싱
+    // JSON 데이터 파싱(JSON문자열을 객체로 생성)
     private static ArrayList<Map<String, String>> parseJson(String json) {
         ArrayList<Map<String, String>> list = new ArrayList<>();
         JSONObject jsonObject = new JSONObject(json);
