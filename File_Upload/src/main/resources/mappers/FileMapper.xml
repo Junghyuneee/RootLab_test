@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.File_Upload.mapper.FileMapper">
+
+<insert id="insertFileMetadata">
+INSERT INTO file_metadata (file_name, file_size, file_type, file_path)
+VALUES (#{fileName}, #{fileSize}, #{fileType}, #{filePath})
+</insert>
+
+<select id="getFileById" resultType="com.example.File_Upload.dto.FileMetadataDTO">
+SELECT * FROM file_metadata WHERE id = #{id}
+</select>
+
+<select id="getAllFiles" resultType="com.example.File_Upload.dto.FileMetadataDTO">
+SELECT * FROM file_metadata
+</select>
+
+</mapper>

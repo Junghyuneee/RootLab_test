@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File Upload</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="file"] {
+        display: block;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table th, table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    table th {
+        background-color: #f4f4f4;
+    }
+    button {
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>File Upload</h1>
+
+<!-- 파일 업로드 폼 -->
+<form id="uploadForm" action="/api/files/upload" method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		<label for="files">파일 선택 :</label>
+		<input type="file" id="files" name="files" multiple>
+	</div>
+	<button type="submit">Upload</button>
+</form>
+
+<!-- 업로드한 테이블 -->
+<h2>Uploaded Files</h2>
+<table id="filesTable">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>FileName</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+	</tbody>
+</table>
+</div>
+
+<script>
+        const uploadForm = document.getElementById('uploadForm');
+        const filesTable = document.getElementById('filesTable').querySelector('tbody');
+
+        // API Base URL
+        const apiUrl = '/api/files';
+
+        // Handle File Upload
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData();
+            const files = document.getElementById('files').files;
+            for (let i = 0; i < files.length; i++) {
+                formData.append('files', files[i]);
+            }
+
+            try {
+                const response = await fetch(`${apiUrl}/upload`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    alert('Files uploaded successfully!');
+                    loadFiles();
+                } else {
+                    alert('Failed to upload files.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while uploading files.');
+            }
+        });
+
+        // Fetch and Display Uploaded Files
+        async function loadFiles() {
+            try {
+                const response = await fetch(apiUrl);
+                if (response.ok) {
+                    const files = await response.json();
+                    filesTable.innerHTML = '';
+                    files.forEach(file => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${file.id}</td>
+                            <td>${file.fileName}</td>
+                            <td>
+                                <button onclick="downloadFile(${file.id})">Download</button>
+                            </td>
+                        `;
+                        filesTable.appendChild(row);
+                    });
+                } else {
+                    console.error('Failed to fetch files.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        // Download File
+        async function downloadFile(fileId) {
+            try {
+                const response = await fetch(`${apiUrl}/${fileId}`);
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const fileName = response.headers.get('Content-Disposition').split('filename=')[1];
+                    const link = document.createElement('a');
+                    link.href = URL.createObjectURL(blob);
+                    link.download = fileName;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                } else {
+                    alert('Failed to download file.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while downloading the file.');
+            }
+        }
+
+        // Load Files on Page Load
+        loadFiles();
+    </script>
+</body>
+</html>
