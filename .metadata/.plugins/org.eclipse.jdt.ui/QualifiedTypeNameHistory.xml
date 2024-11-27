@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="java.net.URLEncoder"/>
     <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
 </qualifiedTypeNameHistroy>

@@ -234,4 +234,5 @@
   <public id="rule-tests_1_0_0" publicId="http://pmd.sourceforge.net/rule-tests" uri="jar:file:/C:/Users/AI-HUB-1/Downloads/eGovFrameDev-4.2.0-64bit/eclipse/plugins/net.sourceforge.pmd.eclipse.plugin_7.0.0.v20230530-1924-rc3.jar!/target/schema/rule-tests_1_0_0.xsd"/>
   <public id="mybatis-3-config.dtd" publicId="-//mybatis.org//DTD Config 3.0//EN" uri="jar:file:/C:/Users/AI-HUB-1/Downloads/eGovFrameDev-4.2.0-64bit/eclipse/plugins/egovframework.dev.imp.dbio_4.2.0.202402021010.jar!/dtd/mybatis-3-config.dtd" webURL="http://mybatis.org/dtd/mybatis-3-config.dtd"/>
   <public id="mybatis-3-mapper.dtd" publicId="-//mybatis.org//DTD Mapper 3.0//EN" uri="jar:file:/C:/Users/AI-HUB-1/Downloads/eGovFrameDev-4.2.0-64bit/eclipse/plugins/egovframework.dev.imp.dbio_4.2.0.202402021010.jar!/dtd/mybatis-3-mapper.dtd" webURL="http://mybatis.org/dtd/mybatis-3-mapper.dtd"/>
+  <public publicId="-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" uri="jar:file:/C:/Users/AI-HUB-1/Downloads/eGovFrameDev-4.2.0-64bit/eclipse/plugins/org.mybatis.generator.eclipse.ui_1.4.2.202302200051.jar!/dtds/mybatis-generator-config_1_0.dtd"/>
 </catalog>
