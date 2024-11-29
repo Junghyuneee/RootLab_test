@@ -61,9 +61,14 @@ public class FileService {
 				metadata.setFileSize(file.getSize());
 				metadata.setFileType(file.getContentType());
 				
-				fileMapper.inserFileMetadata(metadata);
+				try {
+				fileMapper.insertFileMetadata(metadata);
+			}catch (Exception e) {
+				e.printStackTrace();
+				throw new IOException("Failed to insert file metadata into database.", e);
 			}
 		}
+	}
 	}
 	
 	//모든 파일 메타데이터 조회

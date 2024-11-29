@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h3>폴더 내의 모든 파일 목록 출력</h3>
+
+<!-- 파일 목록 출력 -->
+    <ul>
+        <li th:each="file : ${fileList}">
+            <a th:href="@{'/fileDownload/' + ${file.id}}"
+               th:text="${file.fileName}">파일 다운로드</a>
+        </li>
+    </ul>
+    
+		
+<div id="fileListContainer">
+        <!-- 파일 목록이 여기에 동적으로 추가됩니다 -->
+    </div>
+
+    <script>
+        // 서버에서 파일 목록을 가져오는 함수
+        async function loadFileList() {
+            try {
+                // 파일 목록을 가져오는 API 호출
+                const response = await fetch('/download/{fileName}');
+                const fileList = await response.json();
+
+                const fileListContainer = document.getElementById('fileListContainer');
+                fileListContainer.innerHTML = '';  // 기존 목록 비우기
+
+                // 파일 목록을 순회하면서 링크를 생성
+                fileList.forEach(file => {
+                    const link = document.createElement('a');
+                    link.href = `/fileDownload/${file.id}`;  // 파일 다운로드 URL
+                    link.textContent = `${file.fileName} 파일 다운로드`;  // 링크 텍스트
+                    fileListContainer.appendChild(link);
+                    fileListContainer.appendChild(document.createElement('br'));  // 줄 바꿈
+                });
+            } catch (error) {
+                console.error('파일 목록을 가져오는 중 오류 발생:', error);
+            }
+        }
+
+        // 페이지 로드 시 파일 목록 로드
+        window.onload = loadFileList;
+    </script>
+
+</body>
+</html>

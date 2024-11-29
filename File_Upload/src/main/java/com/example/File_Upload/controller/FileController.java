@@ -27,6 +27,7 @@ public class FileController {
 	@Autowired
 	private FileService fileService;
 	
+	// 파일 업로드 처리
 	@PostMapping("/upload")
 	public ResponseEntity<?> uploadFiles(@RequestParam("files") MultipartFile[] files){
 		try {
@@ -37,11 +38,13 @@ public class FileController {
 		}
 	}
 	
+	// 파일 목록 조회
 	@GetMapping
 	public ResponseEntity<List<FileMetadataDTO>> getAllFiles(){
 		return ResponseEntity.ok(fileService.getAllFiles());
 	}
 	
+	// 파일 다운로드 처리
 	@GetMapping("/{id}")
 	public ResponseEntity<byte[]> downloadFile(@PathVariable Integer id){
 		try {
