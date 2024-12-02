@@ -1,5 +1,5 @@
 
-// 지도 생성
+// 1.지도 생성
 const mapContainer = document.getElementById('map');
 const mapOption = {
     center: new kakao.maps.LatLng(35.8535979, 128.5797492), // 루트랩 좌표 
@@ -8,13 +8,13 @@ const mapOption = {
 const map = new kakao.maps.Map(mapContainer, mapOption);
 
 
-// 지도에 마커를 생성하고 표시한다
+// 2.지도에 마커를 생성하고 표시
 const marker = new kakao.maps.Marker({
     position: new kakao.maps.LatLng(35.8535979, 128.5797492), // 마커 루트랩 좌표
     map: map // 마커를 표시할 지도 객체
 });
 		
-// 마커에 클릭 이벤트를 등록한다
+// 3.마커에 클릭 이벤트를 등록
 kakao.maps.event.addListener(marker, 'click', function() {
 	const newPosition = new kakao.maps.LatLng(35.8569029, 128.4615145); // 집 좌표 
 	map.setCenter(newPosition); // 맵 이동
@@ -23,7 +23,8 @@ kakao.maps.event.addListener(marker, 'click', function() {
 	marker.setPosition(newPosition); // 마커 이동
     alert('마커를 클릭했습니다! 지도가 새로운 위치로 이동합니다.');
 });
-		
+
+// 4.폴리곤 생성		
 // daegu.json 비동기 데이터
 fetch('./daegu.json')
 	.then(response => response.json()) //비동기 요청
