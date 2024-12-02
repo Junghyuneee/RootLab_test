@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신규 아이디 추천</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem auto;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        input, button {
+            font-size: 1rem;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+        button {
+            cursor: pointer;
+        }
+        .step {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>신규 아이디 추천</h1>
+
+    <label for="new_id">아이디 입력:</label>
+    <input type="text" id="new_id" placeholder="아이디 입력">
+    <button onclick="handleIdRecommendation()">추천 아이디 확인</button>
+
+    <h2>추천 결과</h2>
+    <div id="result">
+        <p>아이디를 입력하고 버튼을 눌러주세요!</p>
+    </div>
+
+    <!-- JavaScript 파일 연결 -->
+    <script src="script.js"></script>
+</body>
+</html>
