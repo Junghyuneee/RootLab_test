@@ -18,7 +18,7 @@ public class KakaoWebSearch {
     private static final String API_URL = "https://dapi.kakao.com/v2/search/web";
 
     public static void main(String[] args) {
-        String query = "이효리"; // 검색어
+        String query = "흑백요리사"; // 검색어
         try {
             // API 호출
             String jsonResponse = searchWeb(query);

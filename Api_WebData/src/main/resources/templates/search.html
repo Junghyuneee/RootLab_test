@@ -5,19 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API 웹 데이터 활용하기</title>
     <style>
-        pre {
-            background-color: #f8f9fa;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-            font-family: monospace;
-            width: 80%;
-        }
+    	body{
+    		font-family: Arial, sans-serif;
+    		margin: 20px;
+    	}
+    	h1{
+    		color: #333;
+    	}
+    	#jsonDisplay{
+    		white-space: pre-wrap;
+    		background-color: #f9f9f9;
+    		border: 1px solid #ddd;
+    		padding: 10px;
+    		border-radius: 5px;
+    		max-height: 500px;
+    		overflow-y: auto;
+    	}
     </style>
 </head>
 <body>
     <h1>네이버 검색</h1>
-    <pre th:text="${response}"></pre>
+    <input type="text" id="keyword" placeholder="키워드를 입력하세요.">
+    <button onclick="search()">검색</button>
+    <div>
+    	<button onclick="prev()">이전</button>
+    	<button onclick="next()">다음</button>
+    </div>
+    <div id="jsonDisplay">검색 결과가 여기에 표시됩니다.</div>
+    
+    <script>
+    	//검색어와 페이지 번호를 관리하는 변수
+    	let keyword = ""; //현재 검색어
+    	let page = 1; //현재 페이지 번호
+    	
+    	/**
+    	* 검색 버튼 클릭 시 호출되는 함수
+    	**/
+    	function
+    
+    
+    
+    
+    
+    
+    
+    </script>
 </body>
 </html>
 
