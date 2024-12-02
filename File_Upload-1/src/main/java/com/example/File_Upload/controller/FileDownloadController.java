@@ -41,8 +41,8 @@ public class FileDownloadController {
 	}
 	
 	// 파일 다운로드 
-	@RequestMapping("/fileDownload/{file}")
-	public void fileDownload(@PathVariable String file, 
+	@RequestMapping("/fileDownload/{id}")
+	public void fileDownload(@PathVariable("id") Integer id, 
 								HttpServletResponse response) throws IOException {
 		
 		//File f = new File("/Library/springWorkspace/upload/", file);
