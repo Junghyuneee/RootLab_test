@@ -35,6 +35,9 @@ dependencies {
 	implementation group: 'org.json', name: 'json', version: '20240303'
 	//dotenv
 	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+	//Jackson - json 데이터를 파싱하고, 출력
+	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.18.2'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.2'
 	
 }
 
