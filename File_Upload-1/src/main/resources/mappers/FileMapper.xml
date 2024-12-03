@@ -18,4 +18,9 @@
         SELECT * FROM file_metadata_1 WHERE id = #{id}
     </select>
     
+<!-- 파일 메타데이터 삭제 -->
+    <delete id="deleteFileBySavedFileName" parameterType="String">
+        DELETE FROM file_metadata WHERE saved_file_name = #{savedFileName}
+    </delete>
+    
 </mapper>

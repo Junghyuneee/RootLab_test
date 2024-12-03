@@ -18,7 +18,9 @@
 
 <form id="fileUploadFormMulti" method="post" action="/fileUploadMultiple" 
 		enctype="multipart/form-data">
-	파일 : <input type="file" id="uploadFileMulti" name="uploadFileMulti" multiple="multiple">		
+	파일 : <input type="file" id="uploadFileMulti" name="uploadFileMulti" multiple="multiple"
+			onchange="updateFileCount()">
+	<span id="fileCountDisplay">선택된 파일 없음</span>		
 	<input type="submit" value="업로드">
 </form>
 
@@ -31,6 +33,33 @@
 	파일 : <input type="file" id="uploadFile" name="uploadFile">		
 	<input type="submit" value="업로드">
 </form>
-		
+
+
+
+<script>
+    let selectedFiles = [];
+
+    function updateFileCount() {
+        // 선택된 파일들을 배열로 변환
+        const files = document.getElementById('uploadFileMulti').files;
+
+        // 기존 선택된 파일들에 새로 선택된 파일을 추가
+        selectedFiles = [...selectedFiles, ...Array.from(files)];
+
+        // 파일 개수를 화면에 업데이트
+        const fileCountDisplay = document.getElementById('fileCountDisplay');
+        
+        if (selectedFiles.length > 0) {
+            fileCountDisplay.textContent = `선택된 파일: ${selectedFiles.length}개`;  // 파일 개수 표시
+        } else {
+            fileCountDisplay.textContent = '선택된 파일 없음';  // 파일이 없으면 해당 텍스트로 표시
+        }
+        
+        // 선택된 파일 개수를 업데이트
+        document.getElementById('fileCount').textContent = selectedFiles.length;
+    }
+</script>
+
+
 </body>
 </html>

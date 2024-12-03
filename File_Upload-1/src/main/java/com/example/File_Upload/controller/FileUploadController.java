@@ -2,7 +2,7 @@ package com.example.File_Upload.controller;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -66,8 +66,8 @@ public class FileUploadController {
 	}
 
 	// 멀티 파일 업로드
-	@RequestMapping("/fileUploadMultiple")
-	public String fileUpLoadView(@RequestParam("uploadFileMulti") ArrayList<MultipartFile> files, Model model)
+	@PostMapping("/fileUploadMultiple")
+	public String fileUpLoadView(@RequestParam("uploadFileMulti") List<MultipartFile> files, Model model)
 			throws IOException {
 
 		// 1. 파일 저장 경로 설정 : 실제 서비스되는 위치(프로젝트 외부에 저장)
@@ -98,7 +98,30 @@ public class FileUploadController {
 			// Model 설정 : 뷰 페이지에서 원본 파일 이름 출력
 			//model.addAttribute("originalFileNameList", originalFileNameList);
 		//}
-		model.addAttribute("uploadedFiles", fileService.uploadMultipleFiles(files));
+		
+		// 여러 파일 업로드 후 메타데이터 dto로 받아옴
+		List<FileMetadataDTO> metadataList = fileService.uploadMultipleFiles(files);
+		
+		// 업로드된 파일 목록을 뷰에 전달
+		model.addAttribute("uploadedFiles", metadataList);
+		
+		//model.addAttribute("uploadedFiles", fileService.uploadMultipleFiles(files));
+		
+		// 여러 개 파일 업로드 결과 페이지로 리턴
+		return "fileUploadMultipleResult";
+	}
+	
+	@PostMapping("/deleteFile")
+	public String deleteFile(@RequestParam("savedFileName") String savedFileName, Model model) {
+		
+		// 파일 삭제 서비스 호출
+		fileService.deleteFile(savedFileName);
+		
+		// 삭제 후 업로드된 파일 목록을 다시 모델에 담아 페이지로 전달
+		List<FileMetadataDTO> metadataList = fileService.getAllFiles(); //전체 파일 목록을 다시 가져오는 메소드 추가 
+		model.addAttribute("uploadedFiles", metadataList);
+		
+		// 삭제 후 결과 페이지로 리턴
 		return "fileUploadMultipleResult";
 	}
 

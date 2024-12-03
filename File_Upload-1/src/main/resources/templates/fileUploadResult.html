@@ -7,10 +7,10 @@
 <body>
 <h2>저장이 완료되었습니다.</h2>
 
-<h4>파일명: <span th:text="${uploadedFile.originalFileName}"></span>
-<h4>파일 크기: <span th:text="${uploadedFile.fileSize}"></span>
-<h4>파일 날짜: <span th:text="${uploadedFile.uploadDate}"></span>
-<h4>파일 경로: <span th:text="${uploadedFile.filePath}"></span>
+<h4>파일명: <span th:text="${uploadedFiles.originalFileName}"></span>
+<h4>파일 크기: <span th:text="${uploadedFiles.fileSize}"></span>
+<h4>파일 날짜: <span th:text="${uploadedFiles.uploadDate}"></span>
+<h4>파일 경로: <span th:text="${uploadedFiles.filePath}"></span>
 
 <p><a href="/">Back to Upload Form</a></p>
 <a href="/fileDownloadListView">Go to Uploaded Files & Download</a>

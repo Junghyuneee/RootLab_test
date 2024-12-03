@@ -14,5 +14,7 @@ public interface FileMapper {
     List<FileMetadataDTO> getAllFiles();
     // 파일 ID로 조회
     FileMetadataDTO getFileById(Integer id);
+    // 파일 메타데이터 삭제(파일명으로 삭제)
+    void deleteFileBySavedFileName(String savedFileName);
 
 }

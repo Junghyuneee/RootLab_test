@@ -54,9 +54,22 @@ public class FileService {
 	    public List<FileMetadataDTO> uploadMultipleFiles(List<MultipartFile> files) throws IOException {
 	        List<FileMetadataDTO> uploadedFiles = new ArrayList<>();
 	        for (MultipartFile file : files) {
-	            uploadedFiles.add(uploadFile(file));
+	            uploadedFiles.add(uploadFile(file)); // 단일 파일 업로드 메소드 호출
 	        }
 	        return uploadedFiles;
+	    }
+	    
+	    // 파일 삭제
+	    public void deleteFile(String savedFileName) {
+	    	// 파일 경로에서 파일 삭제
+	    	String filePath = uploadDir + savedFileName;
+	    	File file = new File(filePath);
+	    	if(file.exists()) {
+	    		file.delete(); // 파일 삭제
+	    	
+	    	// 데이터페이스에서 메타데이터 삭제
+	    	fileMapper.deleteFileBySavedFileName(savedFileName);
+	    	}
 	    }
 
 	    // 파일 목록 조회
