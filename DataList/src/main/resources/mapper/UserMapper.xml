@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.DataList.mapper.UserMapper">
+	
+	<insert id="inputUsers" parameterType="com.example.DataList.dto.UserDto">
+		INSERT INTO users (name, age, gender, score, status) VALUES
+		(#{name}, #{age}, #{gender}, #{score}, #{status})
+	</insert>
+	
+	<select id="viewUsers"
+		resultType="com.example.DataList.dto.UserDto2">
+		SELECT * FROM users;
+	</select>
+
+	<select id="getAllUsers"
+		resultType="com.example.DataList.dto.UserDto">
+		SELECT id, name,
+		CASE
+			WHEN age BETWEEN 10 AND 19 THEN '10대'
+			WHEN age BETWEEN 20 AND 29 THEN '20대'
+			WHEN age BETWEEN 30 AND 39 THEN '30대'
+			WHEN age BETWEEN 40 AND 49 THEN '40대'
+			WHEN age >= 50 THEN '50대'
+		END AS ages,
+			gender,
+		CASE
+			WHEN score >= 90 THEN 'A'
+			WHEN score BETWEEN 80 AND 89 THEN 'B'
+			WHEN score BETWEEN 70 AND 79 THEN 'C'
+			ELSE 'D'
+		END AS grade,
+		CASE
+			WHEN status = '중퇴' THEN '자퇴'
+			ELSE status
+		END AS status
+		FROM users
+		WHERE status IN ('재직 중', '휴학 중', '졸업', '중퇴')
+		ORDER BY grade DESC, ages ASC;
+
+	</select>
+</mapper>

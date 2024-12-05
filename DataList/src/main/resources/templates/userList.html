@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Users</title>
+</head>
+<body>
+<div class="container mt-5">
+<h1>학생 정보 입력</h1>
+<form action="/" method="post">
+    <div class="form-group">
+        <label for="name">이름:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="age">나이:</label>
+        <input type="number" class="form-control" id="age" name="age" required>
+    </div>
+    <div class="form-group">
+        <label for="gender">성별:</label>
+        <select class="form-control" id="gender" name="gender">
+            <option value="남">남자</option>
+            <option value="여">여자</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="score">점수:</label>
+        <input type="number" class="form-control" id="score" name="score" required>
+    </div>
+    <div class="form-group">
+        <label for="status">상태:</label>
+        <input type="text" class="form-control" id="status" name="status" required>
+    </div>
+    <button type="submit" class="btn btn-primary">제출</button>
+</form>
+</div>
+
+<div class="container mt-5">
+    <h1>변경 전</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>나이</th>
+                <th>성별</th>
+                <th>점수</th>
+                <th>상태</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="viewUser : ${viewUsers}">
+                <td th:text="${viewUser.id}"></td>
+                <td th:text="${viewUser.name}"></td>
+                <td th:text="${viewUser.age}"></td>
+                <td th:text="${viewUser.gender}"></td>
+                <td th:text="${viewUser.score}"></td>
+                <td th:text="${viewUser.status}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container mt-5">
+    <h1>변경 후</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>성명</th>
+                <th>연령대</th>
+                <th>성별</th>
+                <th>등급</th>
+                <th>상태</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.id}"></td>
+                <td th:text="${user.name}"></td>
+                <td th:text="${user.ages}"></td>
+                <td th:text="${user.gender}"></td>
+                <td th:text="${user.grade}"></td>
+                <td th:text="${user.status}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
